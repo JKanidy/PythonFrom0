@@ -24,5 +24,5 @@
 # X = int(input())
 # H = int(input())
 # M = int(input())
-# print((480+(60*H+M))//60)
-# print((480+(60*H+M))%60)
+# print((X+(60*H+M))//60)
+# print((X+(60*H+M))%60)
