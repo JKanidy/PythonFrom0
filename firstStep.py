@@ -30,18 +30,52 @@
 #
 # print(n, word + end)
 
-n = input()
-e = int(n[-1])
-word = "программист"
+# n = input()
+# e = int(n[-1])
+# word = "программист"
+#
+# if len(n) > 2:
+#     ed = n[-2:]
+#     if int(ed) == 11 or int(ed) == 0:
+#         end = "ов"
+#
+# if n == "1" or (e == 1 and int(n) != 11):
+#     end = ""
+#
+# elif e in [0, 5, 6, 7, 8, 9] or int(n[-2:]) in [12, 13] or int(n) in [12, 13] or int(n) == 11 or int(n) == 14:
+#     end = "ов"
+#
+# else:
+#     end = "а"
+#
+# print(n, word + end)
 
 
-if n == "1":
-    end = ""
 
-elif e in [0, 1, 5, 6, 7, 8, 9] or int(n[-2:]) in [12, 13] or int(n) in [12, 13]:
-    end = "ов"
+# ticket = input()
+#
+# count_left = 0
+# count_right = 0
+#
+# for i in ticket[0:3]:
+#     count_left += int(i)
+#
+# for i in ticket[3:6]:
+#     count_right += int(i)
+#
+# if count_left == count_right:
+#     print("Счастливый")
+# else:
+#     print("Обычный")
 
-else:
-    end = "а"
 
-print(n, word + end)
+a = int(input())
+b = int(input())
+i = 1
+
+while i <= (a * b) and i != 0:
+    if i % a == 0 and i % b == 0:
+        print(i)
+        i = 0
+    else:
+        i += 1
